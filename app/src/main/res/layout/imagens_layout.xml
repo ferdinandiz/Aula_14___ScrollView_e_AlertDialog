@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:alignmentMode="alignMargins"
+    android:useDefaultMargins="true"
+    android:padding="4dp">
+    <ImageView android:id="@+id/base00" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base01" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base02" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base03" style="@style/ItemImagem"/>
+
+    <ImageView android:id="@+id/base10" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base11" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base12" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base13" style="@style/ItemImagem"/>
+
+    <ImageView android:id="@+id/base20" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base21" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base22" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base23" style="@style/ItemImagem"/>
+
+    <ImageView android:id="@+id/base30" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base31" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base32" style="@style/ItemImagem"/>
+    <ImageView android:id="@+id/base33" style="@style/ItemImagem"/>
+</GridLayout>

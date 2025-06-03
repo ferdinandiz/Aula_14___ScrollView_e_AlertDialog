@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <TextView
+            android:id="@+id/j1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador 1:"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@id/titulo"
+            android:layout_marginTop="60dp"
+            />
+        <EditText
+            android:id="@+id/edJ1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/j1"
+            android:hint="Digite o nome do Jogador 1"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <TextView
+            android:id="@+id/j2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jogador 2:"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_below="@id/edJ1"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:id="@+id/edJ2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/j2"
+            android:hint="Digite o nome do Jogador 2"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edJ2"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Iniciar"
+            />
+
+    </RelativeLayout>
+</ScrollView>
